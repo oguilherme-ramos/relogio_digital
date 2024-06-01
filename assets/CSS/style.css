@@ -8,7 +8,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, red, rgb(0, 0, 0));
+    background: linear-gradient(120deg, rgba(10, 148, 182, 0.822), rgb(0, 0, 0));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 400px;
+    height: 600px;
     width: 550px;
     background: transparent;
     border-radius: 40px;

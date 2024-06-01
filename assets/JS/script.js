@@ -1,9 +1,11 @@
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
-const segundos = document.getElementById('segundos')
-const date = document.getElementById('dia')
-const mes = document.getElementById('mes')
-const ano = document.getElementById('ano')
+const segundos = document.getElementById('segundos');
+const date = document.getElementById('dia');
+const mes = document.getElementById('mes');
+const ano = document.getElementById('ano');
+const temperatura = document.getElementById('graus');
+
 
 const relogio = setInterval(function time() {
     let dateToday = new Date();
@@ -22,7 +24,7 @@ const relogio = setInterval(function time() {
 
     if (day < 10) day = '0' + day;
 
-    if(month < 10) month = '0' + month;
+    if (month < 10) month = '0' + month;
 
     horas.textContent = hr;
     minutos.textContent = minutes;
